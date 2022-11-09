@@ -35,12 +35,12 @@ router.route('/:id')
 
 
 router.route('/')
-.post('/', async (req, res) => {
+.post(async (req, res) => {
   var newCat = await Category.create(req.body);
   res.status(200).json(newCat);
 })
 
-.get('/', async (req, res) => {
+.get(async (req, res) => {
   var allCats = await Category.findAll({
     include: [{ model: Product,}]
   });
