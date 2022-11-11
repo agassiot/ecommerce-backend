@@ -50,3 +50,5 @@ uses express.js routes and sequelize to create and perform CRUD operations on a 
 Github Page https://github.com/agassiot \
 Github Repository https://github.com/agassiot/ecommerce-backend \
 Live Link n/a
+
+[ecommerce-demo.webm](https://user-images.githubusercontent.com/61921580/201362090-7fde5556-38a9-409d-9452-24041a6afe26.webm)
